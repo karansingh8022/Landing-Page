@@ -1,4 +1,4 @@
-/* Add your CSS styles here */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0px;
@@ -154,7 +154,7 @@ main section div {
     background-color: #555;
 }
 
-/* Add more styles for other sections as needed */
+
 
 
 /* CONTACT SECTION  */
@@ -304,7 +304,7 @@ main section div {
     border-radius: 30%;
 }
 
-/* box shadow:left offset, right offset, blur, spread, color*/
+
 #social-handles li img:hover {
     box-shadow: 0px 0px 6px 6px white;
 }
@@ -373,18 +373,17 @@ main section div {
     transition: color 0.3s, background-color 0.3s;
 }
 
-/* Add an active class to highlight the current page */
+
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
+
 .topnav .icon {
     display: none;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none;
@@ -396,7 +395,7 @@ main section div {
     }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
 @media screen and (max-width: 600px) {
     .topnav.responsive {
         position: relative;
